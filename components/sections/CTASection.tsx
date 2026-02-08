@@ -51,7 +51,7 @@ export default function CTASection() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-xl text-gray-400 mb-10 max-w-2xl mx-auto"
           >
-            Let's transform your vision into a stunning digital reality with cutting-edge technology and exceptional design.
+            Let&apos;s transform your vision into a stunning digital reality with cutting-edge technology and exceptional design.
           </motion.p>
 
           {/* CTA Button */}
@@ -62,7 +62,7 @@ export default function CTASection() {
             transition={{ duration: 0.6, delay: 0.5 }}
           >
             <Button href="/contact" variant="primary" className="text-lg px-10 py-5">
-              Let's Work Together
+              Let&apos;s Work Together
               <ArrowRight className="w-6 h-6" />
             </Button>
           </motion.div>

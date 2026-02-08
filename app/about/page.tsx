@@ -77,7 +77,7 @@ export default function AboutPage() {
             <div className="text-center space-y-6">
               <h2 className="text-3xl font-bold text-white">Our Vision</h2>
               <p className="text-lg text-gray-300 leading-relaxed">
-                At Hypernovation, we believe in the transformative power of technology. Our mission is to craft digital experiences that not only meet today's needs but anticipate tomorrow's possibilities. We combine artificial intelligence, premium design, and innovative development to create products that are not just functional, but extraordinary.
+                At Hypernovation, we believe in the transformative power of technology. Our mission is to craft digital experiences that not only meet today&apos;s needs but anticipate tomorrow&apos;s possibilities. We combine artificial intelligence, premium design, and innovative development to create products that are not just functional, but extraordinary.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 From iOS apps to SaaS platforms, from e-commerce stores to AI-powered tools, we approach every project with the same commitment to excellence, innovation, and client success.

@@ -51,7 +51,7 @@ export default function Navbar() {
               href="/contact"
               className="px-6 py-2 bg-cyan-500 text-gray-900 rounded-full font-medium hover:bg-cyan-400 hover:shadow-[0_0_30px_rgba(34,211,238,0.5)] transition-all duration-300"
             >
-              Let's Talk
+              Let&apos;s Talk
             </Link>
           </div>
 
@@ -87,7 +87,7 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
               className="px-6 py-3 bg-cyan-500 text-gray-900 rounded-full font-medium hover:bg-cyan-400 text-center transition-all duration-300"
             >
-              Let's Talk
+              Let&apos;s Talk
             </Link>
           </motion.div>
         )}

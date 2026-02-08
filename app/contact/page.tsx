@@ -78,10 +78,10 @@ export default function ContactPage() {
           className="text-center mb-20"
         >
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            <span className="text-gradient">Let's Work Together</span>
+            <span className="text-gradient">Let&apos;s Work Together</span>
           </h1>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Have a project in mind? Let's discuss how we can bring your vision to life.
+            Have a project in mind? Let&apos;s discuss how we can bring your vision to life.
           </p>
         </motion.div>
 
@@ -232,7 +232,7 @@ export default function ContactPage() {
             <GlassCard hover={false}>
               <h3 className="text-xl font-bold text-white mb-4">Availability</h3>
               <p className="text-gray-400 leading-relaxed mb-4">
-                Currently accepting new projects for 2026. Let's create something amazing together.
+                Currently accepting new projects for 2026. Let&apos;s create something amazing together.
               </p>
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse" />
