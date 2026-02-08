@@ -206,10 +206,15 @@ export default function SugarOffSupportPage() {
                   iCloud Sync
                 </span>
               </div>
-              <div className="pt-6">
-                <Button href="/contact" variant="outline">
-                  Need More Help? Contact Us
-                </Button>
+              <div className="pt-6 space-y-4">
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <Button href="/contact" variant="outline">
+                    Need More Help? Contact Us
+                  </Button>
+                  <Button href="/projects/sugaroff-support/privacy-policy" variant="secondary">
+                    Privacy Policy
+                  </Button>
+                </div>
               </div>
             </div>
           </GlassCard>
