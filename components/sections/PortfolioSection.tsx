@@ -10,6 +10,7 @@ const projects = [
     title: "SugarOff",
     category: "iOS App",
     description: "Wellness app helping users track and reduce sugar intake with AI-powered insights and beautiful analytics.",
+    href: "/projects/sugaroff-support",
   },
   {
     title: "Plant Recognition AI",
@@ -56,7 +57,7 @@ export default function PortfolioSection() {
               title={project.title}
               category={project.category}
               description={project.description}
-              href="/projects"
+              href={project.href || "/projects"}
               delay={index * 0.1}
             />
           ))}

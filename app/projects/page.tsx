@@ -12,6 +12,7 @@ const allProjects = [
     category: "iOS App",
     description: "Wellness app helping users track and reduce sugar intake with AI-powered insights and beautiful analytics.",
     tags: ["Apps", "AI"],
+    href: "/projects/sugaroff-support",
   },
   {
     title: "Plant Recognition AI",
@@ -149,6 +150,7 @@ export default function ProjectsPage() {
                 title={project.title}
                 category={project.category}
                 description={project.description}
+                href={project.href}
                 delay={index * 0.05}
               />
             ))}
