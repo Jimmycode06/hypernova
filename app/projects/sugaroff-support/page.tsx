@@ -4,10 +4,16 @@ import { motion } from "framer-motion";
 import GlassCard from "@/components/ui/GlassCard";
 import Button from "@/components/ui/Button";
 import { DotsBackground } from "@/components/ui/AnimatedBackground";
-import { Mail, MessageCircle, FileText, HelpCircle, Bug, Lightbulb } from "lucide-react";
+import { Mail, MessageCircle, FileText, HelpCircle, Bug, Lightbulb, TrendingUp } from "lucide-react";
 import Link from "next/link";
 
 const supportTopics = [
+  {
+    icon: TrendingUp,
+    title: "How It Works",
+    description: "Discover your 30-day journey to reduce sugar intake and crush your goals.",
+    href: "/projects/sugaroff-support/how-it-works",
+  },
   {
     icon: HelpCircle,
     title: "General Questions",
@@ -136,19 +142,33 @@ export default function SugarOffSupportPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {supportTopics.map((topic, index) => {
               const Icon = topic.icon;
-              return (
-                <GlassCard key={topic.title} delay={index * 0.1}>
-                  <div className="text-center">
-                    <div className="w-16 h-16 rounded-2xl bg-cyan-500/10 flex items-center justify-center border border-cyan-500/30 mx-auto mb-4">
-                      <Icon className="w-8 h-8 text-cyan-400" />
-                    </div>
-                    <h3 className="text-lg font-bold text-white mb-2">
-                      {topic.title}
-                    </h3>
-                    <p className="text-gray-400 text-sm">
-                      {topic.description}
-                    </p>
+              const content = (
+                <div className="text-center">
+                  <div className="w-16 h-16 rounded-2xl bg-cyan-500/10 flex items-center justify-center border border-cyan-500/30 mx-auto mb-4">
+                    <Icon className="w-8 h-8 text-cyan-400" />
                   </div>
+                  <h3 className="text-lg font-bold text-white mb-2">
+                    {topic.title}
+                  </h3>
+                  <p className="text-gray-400 text-sm">
+                    {topic.description}
+                  </p>
+                </div>
+              );
+
+              if (topic.href) {
+                return (
+                  <Link key={topic.title} href={topic.href}>
+                    <GlassCard delay={index * 0.1}>
+                      {content}
+                    </GlassCard>
+                  </Link>
+                );
+              }
+
+              return (
+                <GlassCard key={topic.title} delay={index * 0.1} hover={false}>
+                  {content}
                 </GlassCard>
               );
             })}
