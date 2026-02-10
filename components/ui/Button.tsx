@@ -23,9 +23,9 @@ export default function Button({
   const baseStyles = "px-8 py-4 rounded-full font-medium transition-all duration-300 inline-flex items-center justify-center gap-2";
   
   const variants = {
-    primary: "bg-cyan-500 text-gray-900 hover:bg-cyan-400 hover:shadow-[0_0_30px_rgba(34,211,238,0.5)] hover:scale-105",
+    primary: "gradient-primary text-white hover:shadow-[0_0_30px_rgba(250,147,250,0.5)] hover:scale-105",
     secondary: "glass glass-hover text-white",
-    outline: "border-2 border-cyan-500 text-cyan-400 hover:bg-cyan-500/10 hover:shadow-[0_0_30px_rgba(34,211,238,0.3)]",
+    outline: "border-2 border-[#FA93FA] text-[#FA93FA] hover:bg-[#FA93FA]/10 hover:shadow-[0_0_30px_rgba(250,147,250,0.3)]",
   };
 
   const Component = motion.button;

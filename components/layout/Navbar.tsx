@@ -27,8 +27,8 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
             <div className="relative">
-              <Sparkles className="w-6 h-6 text-cyan-400 group-hover:rotate-180 transition-transform duration-500" />
-              <div className="absolute inset-0 bg-cyan-400/20 blur-xl group-hover:blur-2xl transition-all" />
+              <Sparkles className="w-6 h-6 text-[#FA93FA] group-hover:rotate-180 transition-transform duration-500" />
+              <div className="absolute inset-0 bg-[#FA93FA]/20 blur-xl group-hover:blur-2xl transition-all" />
             </div>
             <span className="text-xl font-bold text-gradient">
               Hypernovation
@@ -41,15 +41,15 @@ export default function Navbar() {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 relative group"
+                className="text-gray-300 hover:text-[#FA93FA] transition-colors duration-300 relative group"
               >
                 {item.name}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 group-hover:w-full transition-all duration-300" />
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#FA93FA] group-hover:w-full transition-all duration-300" />
               </Link>
             ))}
             <Link
               href="/contact"
-              className="px-6 py-2 bg-cyan-500 text-gray-900 rounded-full font-medium hover:bg-cyan-400 hover:shadow-[0_0_30px_rgba(34,211,238,0.5)] transition-all duration-300"
+              className="px-6 py-2 gradient-primary text-white rounded-full font-medium hover:shadow-[0_0_30px_rgba(250,147,250,0.5)] transition-all duration-300"
             >
               Let&apos;s Talk
             </Link>
