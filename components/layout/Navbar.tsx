@@ -58,7 +58,7 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden text-gray-300 hover:text-cyan-400 transition-colors"
+            className="md:hidden text-gray-300 hover:text-[#FA93FA] transition-colors"
           >
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -77,7 +77,7 @@ export default function Navbar() {
                 key={item.name}
                 href={item.href}
                 onClick={() => setIsOpen(false)}
-                className="text-gray-300 hover:text-cyan-400 transition-colors duration-300 py-2"
+                className="text-gray-300 hover:text-[#FA93FA] transition-colors duration-300 py-2"
               >
                 {item.name}
               </Link>
@@ -85,7 +85,7 @@ export default function Navbar() {
             <Link
               href="/contact"
               onClick={() => setIsOpen(false)}
-              className="px-6 py-3 bg-cyan-500 text-gray-900 rounded-full font-medium hover:bg-cyan-400 text-center transition-all duration-300"
+              className="px-6 py-3 gradient-primary text-white rounded-full font-medium hover:shadow-[0_0_30px_rgba(250,147,250,0.5)] text-center transition-all duration-300"
             >
               Let&apos;s Talk
             </Link>

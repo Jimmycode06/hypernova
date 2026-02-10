@@ -197,7 +197,7 @@ export default function HowItWorksPage() {
             </h2>
             <div className="space-y-8">
               <div className="flex items-start gap-4">
-                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 flex items-center justify-center border border-[#FA93FA]/30 flex-shrink-0">
+                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#FA93FA]/20 to-blue-500/20 flex items-center justify-center border border-[#FA93FA]/30 flex-shrink-0">
                   <span className="text-2xl font-bold text-[#FA93FA]">3</span>
                 </div>
                 <div>
@@ -209,7 +209,7 @@ export default function HowItWorksPage() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-500/20 to-purple-500/20 flex items-center justify-center border border-[#FA93FA]/30 flex-shrink-0">
+                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#FA93FA]/20 to-purple-500/20 flex items-center justify-center border border-[#FA93FA]/30 flex-shrink-0">
                   <span className="text-2xl font-bold text-[#FA93FA]">7</span>
                 </div>
                 <div>
@@ -221,7 +221,7 @@ export default function HowItWorksPage() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-500/20 to-pink-500/20 flex items-center justify-center border border-[#FA93FA]/30 flex-shrink-0">
+                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#FA93FA]/20 to-pink-500/20 flex items-center justify-center border border-[#FA93FA]/30 flex-shrink-0">
                   <span className="text-2xl font-bold text-[#FA93FA]">30</span>
                 </div>
                 <div>

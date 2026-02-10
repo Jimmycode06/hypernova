@@ -117,7 +117,7 @@ export default function ContactPage() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-[#FA93FA]/50 focus:ring-2 focus:ring-cyan-500/20 transition-all"
+                    className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-[#FA93FA]/50 focus:ring-2 focus:ring-[#FA93FA]/20 transition-all"
                     placeholder="Your name"
                   />
                 </div>
@@ -133,7 +133,7 @@ export default function ContactPage() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-[#FA93FA]/50 focus:ring-2 focus:ring-cyan-500/20 transition-all"
+                    className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-[#FA93FA]/50 focus:ring-2 focus:ring-[#FA93FA]/20 transition-all"
                     placeholder="your@email.com"
                   />
                 </div>
@@ -149,7 +149,7 @@ export default function ContactPage() {
                     onChange={handleChange}
                     required
                     rows={6}
-                    className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-[#FA93FA]/50 focus:ring-2 focus:ring-cyan-500/20 transition-all resize-none"
+                    className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-[#FA93FA]/50 focus:ring-2 focus:ring-[#FA93FA]/20 transition-all resize-none"
                     placeholder="Tell me about your project..."
                   />
                 </div>
