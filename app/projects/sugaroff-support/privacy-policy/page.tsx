@@ -65,8 +65,8 @@ export default function SugarOffPrivacyPolicyPage() {
           className="text-center mb-16"
         >
           <div className="inline-flex items-center gap-3 glass px-6 py-3 rounded-full mb-6">
-            <Shield className="w-5 h-5 text-cyan-400" />
-            <span className="text-cyan-400 font-medium">Sugar Off Privacy Policy</span>
+            <Shield className="w-5 h-5 text-[#FA93FA]" />
+            <span className="text-[#FA93FA] font-medium">Sugar Off Privacy Policy</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="text-gradient">Privacy Policy</span>
@@ -103,8 +103,8 @@ export default function SugarOffPrivacyPolicyPage() {
               >
                 <GlassCard hover={false}>
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center border border-cyan-500/30 flex-shrink-0 mt-1">
-                      <Icon className="w-6 h-6 text-cyan-400" />
+                    <div className="w-12 h-12 rounded-xl bg-[#FA93FA]/10 flex items-center justify-center border border-[#FA93FA]/30 flex-shrink-0 mt-1">
+                      <Icon className="w-6 h-6 text-[#FA93FA]" />
                     </div>
                     <div className="flex-1">
                       <h2 className="text-xl font-bold text-white mb-3">
@@ -117,7 +117,7 @@ export default function SugarOffPrivacyPolicyPage() {
                         <div className="mt-4">
                           <a
                             href={`mailto:${section.email}`}
-                            className="inline-flex items-center gap-2 text-cyan-400 hover:text-cyan-300 transition-colors"
+                            className="inline-flex items-center gap-2 text-[#FA93FA] hover:text-cyan-300 transition-colors"
                           >
                             <Mail className="w-4 h-4" />
                             {section.email}
@@ -139,14 +139,14 @@ export default function SugarOffPrivacyPolicyPage() {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="mb-12"
         >
-          <GlassCard hover={false} className="bg-cyan-500/5">
+          <GlassCard hover={false} className="bg-[#FA93FA]/5">
             <h3 className="text-2xl font-bold text-white mb-6 text-center">
               Your Privacy Matters
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="text-center">
-                <div className="w-16 h-16 rounded-2xl bg-cyan-500/10 flex items-center justify-center border border-cyan-500/30 mx-auto mb-4">
-                  <Lock className="w-8 h-8 text-cyan-400" />
+                <div className="w-16 h-16 rounded-2xl bg-[#FA93FA]/10 flex items-center justify-center border border-[#FA93FA]/30 mx-auto mb-4">
+                  <Lock className="w-8 h-8 text-[#FA93FA]" />
                 </div>
                 <h4 className="font-bold text-white mb-2">No Data Collection</h4>
                 <p className="text-gray-400 text-sm">
@@ -154,8 +154,8 @@ export default function SugarOffPrivacyPolicyPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="w-16 h-16 rounded-2xl bg-cyan-500/10 flex items-center justify-center border border-cyan-500/30 mx-auto mb-4">
-                  <Database className="w-8 h-8 text-cyan-400" />
+                <div className="w-16 h-16 rounded-2xl bg-[#FA93FA]/10 flex items-center justify-center border border-[#FA93FA]/30 mx-auto mb-4">
+                  <Database className="w-8 h-8 text-[#FA93FA]" />
                 </div>
                 <h4 className="font-bold text-white mb-2">Local Storage Only</h4>
                 <p className="text-gray-400 text-sm">
@@ -163,8 +163,8 @@ export default function SugarOffPrivacyPolicyPage() {
                 </p>
               </div>
               <div className="text-center">
-                <div className="w-16 h-16 rounded-2xl bg-cyan-500/10 flex items-center justify-center border border-cyan-500/30 mx-auto mb-4">
-                  <Shield className="w-8 h-8 text-cyan-400" />
+                <div className="w-16 h-16 rounded-2xl bg-[#FA93FA]/10 flex items-center justify-center border border-[#FA93FA]/30 mx-auto mb-4">
+                  <Shield className="w-8 h-8 text-[#FA93FA]" />
                 </div>
                 <h4 className="font-bold text-white mb-2">No Third Parties</h4>
                 <p className="text-gray-400 text-sm">
@@ -195,7 +195,7 @@ export default function SugarOffPrivacyPolicyPage() {
       </div>
 
       {/* Background Effects */}
-      <div className="absolute top-1/4 left-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/4 left-0 w-96 h-96 bg-[#FA93FA]/10 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-1/4 right-0 w-96 h-96 bg-purple-500/10 rounded-full blur-[120px] pointer-events-none" />
     </div>
   );

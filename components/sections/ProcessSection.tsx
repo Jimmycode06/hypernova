@@ -53,7 +53,7 @@ export default function ProcessSection() {
         {/* Timeline */}
         <div className="relative">
           {/* Connection Line */}
-          <div className="hidden lg:block absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-cyan-500/50 via-purple-500/50 to-cyan-500/50" />
+          <div className="hidden lg:block absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-[#FA93FA]/50 via-[#C967E8]/50 to-[#983AD6]/50" />
 
           {/* Steps */}
           <div className="space-y-24">
@@ -77,13 +77,13 @@ export default function ProcessSection() {
                     <div className="glass rounded-2xl p-8 glass-hover">
                       <div className="flex items-start gap-4">
                         <div className="relative">
-                          <div className="w-16 h-16 rounded-2xl bg-cyan-500/10 flex items-center justify-center border border-cyan-500/30">
-                            <Icon className="w-8 h-8 text-cyan-400" />
+                          <div className="w-16 h-16 rounded-2xl bg-[#FA93FA]/10 flex items-center justify-center border border-[#FA93FA]/30">
+                            <Icon className="w-8 h-8 text-[#FA93FA]" />
                           </div>
-                          <div className="absolute inset-0 bg-cyan-400/20 blur-xl" />
+                          <div className="absolute inset-0 bg-[#FA93FA]/20 blur-xl" />
                         </div>
                         <div className="flex-1">
-                          <div className="text-cyan-400 font-bold text-sm mb-2">
+                          <div className="text-[#FA93FA] font-bold text-sm mb-2">
                             STEP {step.number}
                           </div>
                           <h3 className="text-2xl font-bold text-white mb-3">
@@ -98,7 +98,7 @@ export default function ProcessSection() {
                   </div>
 
                   {/* Center Dot */}
-                  <div className="hidden lg:block absolute left-1/2 -translate-x-1/2 w-6 h-6 rounded-full bg-cyan-500 border-4 border-[#0B1020] shadow-[0_0_20px_rgba(34,211,238,0.5)]" />
+                  <div className="hidden lg:block absolute left-1/2 -translate-x-1/2 w-6 h-6 rounded-full bg-[#FA93FA] border-4 border-[#010101] shadow-[0_0_20px_rgba(250,147,250,0.5)]" />
 
                   {/* Spacer */}
                   <div className="hidden lg:block flex-1" />
@@ -110,8 +110,8 @@ export default function ProcessSection() {
       </div>
 
       {/* Background Effects */}
-      <div className="absolute top-1/4 right-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-1/4 left-0 w-96 h-96 bg-purple-500/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/4 right-0 w-96 h-96 bg-[#FA93FA]/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute bottom-1/4 left-0 w-96 h-96 bg-[#983AD6]/10 rounded-full blur-[120px] pointer-events-none" />
     </section>
   );
 }

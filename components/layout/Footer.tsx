@@ -32,8 +32,8 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="relative">
-                <Sparkles className="w-6 h-6 text-cyan-400" />
-                <div className="absolute inset-0 bg-cyan-400/20 blur-xl" />
+                <Sparkles className="w-6 h-6 text-[#FA93FA]" />
+                <div className="absolute inset-0 bg-[#FA93FA]/20 blur-xl" />
               </div>
               <span className="text-xl font-bold text-gradient">
                 Hypernovation
@@ -52,7 +52,7 @@ export default function Footer() {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-gray-400 hover:text-cyan-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-[#FA93FA] transition-colors text-sm"
                   >
                     {link.name}
                   </Link>
@@ -69,7 +69,7 @@ export default function Footer() {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-gray-400 hover:text-cyan-400 transition-colors text-sm"
+                    className="text-gray-400 hover:text-[#FA93FA] transition-colors text-sm"
                   >
                     {link.name}
                   </Link>
@@ -90,9 +90,9 @@ export default function Footer() {
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-10 h-10 glass rounded-full flex items-center justify-center hover:bg-cyan-500/20 hover:border-cyan-500/50 transition-all duration-300 group"
+                    className="w-10 h-10 glass rounded-full flex items-center justify-center hover:bg-[#FA93FA]/20 hover:border-[#FA93FA]/50 transition-all duration-300 group"
                   >
-                    <Icon className="w-5 h-5 text-gray-400 group-hover:text-cyan-400 transition-colors" />
+                    <Icon className="w-5 h-5 text-gray-400 group-hover:text-[#FA93FA] transition-colors" />
                   </a>
                 );
               })}
@@ -106,10 +106,10 @@ export default function Footer() {
             © {new Date().getFullYear()} Hypernovation. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
-            <Link href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">
+            <Link href="#" className="text-gray-400 hover:text-[#FA93FA] transition-colors">
               Privacy Policy
             </Link>
-            <Link href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">
+            <Link href="#" className="text-gray-400 hover:text-[#FA93FA] transition-colors">
               Terms of Service
             </Link>
           </div>
@@ -117,7 +117,7 @@ export default function Footer() {
       </div>
 
       {/* Background Glow */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-cyan-500/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-[#FA93FA]/10 rounded-full blur-[120px] pointer-events-none" />
     </footer>
   );
 }

@@ -69,7 +69,7 @@ export default function SugarOffSupportPage() {
           className="text-center mb-16"
         >
           <div className="inline-block px-6 py-2 glass rounded-full mb-6">
-            <span className="text-cyan-400 font-medium">SugarOff Support</span>
+            <span className="text-[#FA93FA] font-medium">SugarOff Support</span>
           </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             <span className="text-gradient">How Can We Help?</span>
@@ -89,11 +89,11 @@ export default function SugarOffSupportPage() {
           <Link href="mailto:support@sugaroff.app">
             <GlassCard className="h-full group">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center border border-cyan-500/30 group-hover:border-cyan-500/60 transition-all flex-shrink-0">
-                  <Mail className="w-6 h-6 text-cyan-400" />
+                <div className="w-12 h-12 rounded-xl bg-[#FA93FA]/10 flex items-center justify-center border border-[#FA93FA]/30 group-hover:border-[#FA93FA]/60 transition-all flex-shrink-0">
+                  <Mail className="w-6 h-6 text-[#FA93FA]" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors">
+                  <h3 className="text-xl font-bold text-white mb-2 group-hover:text-[#FA93FA] transition-colors">
                     Email Support
                   </h3>
                   <p className="text-gray-400">
@@ -110,11 +110,11 @@ export default function SugarOffSupportPage() {
           <Link href="mailto:feedback@sugaroff.app">
             <GlassCard className="h-full group">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center border border-cyan-500/30 group-hover:border-cyan-500/60 transition-all flex-shrink-0">
-                  <MessageCircle className="w-6 h-6 text-cyan-400" />
+                <div className="w-12 h-12 rounded-xl bg-[#FA93FA]/10 flex items-center justify-center border border-[#FA93FA]/30 group-hover:border-[#FA93FA]/60 transition-all flex-shrink-0">
+                  <MessageCircle className="w-6 h-6 text-[#FA93FA]" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors">
+                  <h3 className="text-xl font-bold text-white mb-2 group-hover:text-[#FA93FA] transition-colors">
                     Send Feedback
                   </h3>
                   <p className="text-gray-400">
@@ -144,8 +144,8 @@ export default function SugarOffSupportPage() {
               const Icon = topic.icon;
               const content = (
                 <div className="text-center">
-                  <div className="w-16 h-16 rounded-2xl bg-cyan-500/10 flex items-center justify-center border border-cyan-500/30 mx-auto mb-4">
-                    <Icon className="w-8 h-8 text-cyan-400" />
+                  <div className="w-16 h-16 rounded-2xl bg-[#FA93FA]/10 flex items-center justify-center border border-[#FA93FA]/30 mx-auto mb-4">
+                    <Icon className="w-8 h-8 text-[#FA93FA]" />
                   </div>
                   <h3 className="text-lg font-bold text-white mb-2">
                     {topic.title}
@@ -213,16 +213,16 @@ export default function SugarOffSupportPage() {
                 SugarOff is a comprehensive wellness app designed to help you track and reduce your sugar intake. With AI-powered insights, beautiful analytics, and an intuitive interface, SugarOff makes it easy to take control of your health and achieve your wellness goals.
               </p>
               <div className="flex flex-wrap justify-center gap-4 pt-4">
-                <span className="px-4 py-2 glass rounded-full text-sm text-cyan-400 border-cyan-500/30">
+                <span className="px-4 py-2 glass rounded-full text-sm text-[#FA93FA] border-[#FA93FA]/30">
                   iOS App
                 </span>
-                <span className="px-4 py-2 glass rounded-full text-sm text-cyan-400 border-cyan-500/30">
+                <span className="px-4 py-2 glass rounded-full text-sm text-[#FA93FA] border-[#FA93FA]/30">
                   AI-Powered
                 </span>
-                <span className="px-4 py-2 glass rounded-full text-sm text-cyan-400 border-cyan-500/30">
+                <span className="px-4 py-2 glass rounded-full text-sm text-[#FA93FA] border-[#FA93FA]/30">
                   Health & Wellness
                 </span>
-                <span className="px-4 py-2 glass rounded-full text-sm text-cyan-400 border-cyan-500/30">
+                <span className="px-4 py-2 glass rounded-full text-sm text-[#FA93FA] border-[#FA93FA]/30">
                   iCloud Sync
                 </span>
               </div>
@@ -242,7 +242,7 @@ export default function SugarOffSupportPage() {
       </div>
 
       {/* Background Effects */}
-      <div className="absolute top-1/4 left-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/4 left-0 w-96 h-96 bg-[#FA93FA]/10 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-1/4 right-0 w-96 h-96 bg-purple-500/10 rounded-full blur-[120px] pointer-events-none" />
     </div>
   );

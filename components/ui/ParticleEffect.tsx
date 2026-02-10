@@ -35,7 +35,7 @@ export default function ParticleEffect() {
       {particles.map((particle) => (
         <motion.div
           key={particle.id}
-          className="absolute rounded-full bg-cyan-400/30"
+          className="absolute rounded-full bg-[#FA93FA]/30"
           style={{
             left: `${particle.x}%`,
             top: `${particle.y}%`,

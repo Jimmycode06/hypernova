@@ -28,7 +28,7 @@ export default function GlassCard({ children, className, hover = true, delay = 0
       {children}
       
       {/* Subtle gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 via-transparent to-purple-500/5 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-br from-[#FA93FA]/5 via-transparent to-[#983AD6]/5 pointer-events-none" />
     </motion.div>
   );
 }

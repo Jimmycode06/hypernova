@@ -129,8 +129,8 @@ export default function AboutPage() {
               return (
                 <GlassCard key={value.title} delay={index * 0.1} hover={false}>
                   <div className="relative">
-                    <div className="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center border border-cyan-500/30 mb-4">
-                      <Icon className="w-6 h-6 text-cyan-400" />
+                    <div className="w-12 h-12 rounded-xl bg-[#FA93FA]/10 flex items-center justify-center border border-[#FA93FA]/30 mb-4">
+                      <Icon className="w-6 h-6 text-[#FA93FA]" />
                     </div>
                     <h3 className="text-xl font-bold text-white mb-3">
                       {value.title}
@@ -161,7 +161,7 @@ export default function AboutPage() {
                 {["AI & ML", "iOS & Swift", "React & Next.js", "Node.js", "TypeScript", "Shopify", "Figma", "Python", "TailwindCSS"].map((tech) => (
                   <span
                     key={tech}
-                    className="px-4 py-2 glass rounded-full text-sm text-cyan-400 border-cyan-500/30"
+                    className="px-4 py-2 glass rounded-full text-sm text-[#FA93FA] border-[#FA93FA]/30"
                   >
                     {tech}
                   </span>
@@ -173,8 +173,8 @@ export default function AboutPage() {
       </div>
 
       {/* Background Effects */}
-      <div className="absolute top-1/4 left-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-1/4 right-0 w-96 h-96 bg-purple-500/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/4 left-0 w-96 h-96 bg-[#FA93FA]/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute bottom-1/4 right-0 w-96 h-96 bg-[#983AD6]/10 rounded-full blur-[120px] pointer-events-none" />
     </div>
   );
 }

@@ -13,14 +13,14 @@ export function Aurora({ className }: { className?: string }) {
     <div className={cn("absolute inset-0 overflow-hidden", className)}>
       <div className="absolute inset-0 opacity-40">
         <div
-          className="absolute top-0 -left-4 w-[500px] h-[500px] bg-gradient-to-r from-cyan-500/30 to-blue-500/30 rounded-full blur-[120px] animate-aurora"
+          className="absolute top-0 -left-4 w-[500px] h-[500px] bg-gradient-to-r from-[#FA93FA]/30 to-[#C967E8]/30 rounded-full blur-[120px] animate-aurora"
         />
         <div
-          className="absolute top-20 right-0 w-[600px] h-[600px] bg-gradient-to-l from-purple-500/30 to-pink-500/30 rounded-full blur-[120px] animate-aurora"
+          className="absolute top-20 right-0 w-[600px] h-[600px] bg-gradient-to-l from-[#C967E8]/30 to-[#983AD6]/30 rounded-full blur-[120px] animate-aurora"
           style={{ animationDelay: "2s" }}
         />
         <div
-          className="absolute bottom-0 left-1/3 w-[550px] h-[550px] bg-gradient-to-tr from-blue-500/20 to-cyan-500/20 rounded-full blur-[120px] animate-aurora"
+          className="absolute bottom-0 left-1/3 w-[550px] h-[550px] bg-gradient-to-tr from-[#FA93FA]/20 to-[#983AD6]/20 rounded-full blur-[120px] animate-aurora"
           style={{ animationDelay: "4s" }}
         />
       </div>

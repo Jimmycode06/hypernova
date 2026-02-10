@@ -24,10 +24,10 @@ export default function CTASection() {
             className="inline-flex items-center justify-center mb-8"
           >
             <div className="relative">
-              <div className="w-20 h-20 rounded-2xl bg-cyan-500/10 flex items-center justify-center border border-cyan-500/30">
-                <Sparkles className="w-10 h-10 text-cyan-400" />
+              <div className="w-20 h-20 rounded-2xl bg-[#FA93FA]/10 flex items-center justify-center border border-[#FA93FA]/30">
+                <Sparkles className="w-10 h-10 text-[#FA93FA]" />
               </div>
-              <div className="absolute inset-0 bg-cyan-400/30 blur-2xl" />
+              <div className="absolute inset-0 bg-[#FA93FA]/30 blur-2xl" />
             </div>
           </motion.div>
 
@@ -68,9 +68,9 @@ export default function CTASection() {
           </motion.div>
 
           {/* Gradient Overlays */}
-          <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 via-transparent to-purple-500/5 pointer-events-none" />
-          <div className="absolute -top-24 -right-24 w-48 h-48 bg-cyan-500/20 rounded-full blur-[100px] pointer-events-none" />
-          <div className="absolute -bottom-24 -left-24 w-48 h-48 bg-purple-500/20 rounded-full blur-[100px] pointer-events-none" />
+          <div className="absolute inset-0 bg-gradient-to-br from-[#FA93FA]/5 via-transparent to-[#983AD6]/5 pointer-events-none" />
+          <div className="absolute -top-24 -right-24 w-48 h-48 bg-[#FA93FA]/20 rounded-full blur-[100px] pointer-events-none" />
+          <div className="absolute -bottom-24 -left-24 w-48 h-48 bg-[#983AD6]/20 rounded-full blur-[100px] pointer-events-none" />
         </motion.div>
       </div>
     </section>

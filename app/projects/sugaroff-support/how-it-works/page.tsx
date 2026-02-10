@@ -143,8 +143,8 @@ export default function HowItWorksPage() {
             <div className="text-center pt-6 border-t border-white/10">
               <p className="text-gray-300 leading-relaxed">
                 Based on SugarOff&apos;s user data, sugar reduction is usually gradual at first, but after{" "}
-                <span className="text-cyan-400 font-semibold">7 days</span>, you can{" "}
-                <span className="text-cyan-400 font-semibold">cut cravings like crazy!</span>
+                <span className="text-[#FA93FA] font-semibold">7 days</span>, you can{" "}
+                <span className="text-[#FA93FA] font-semibold">cut cravings like crazy!</span>
               </p>
             </div>
           </GlassCard>
@@ -166,8 +166,8 @@ export default function HowItWorksPage() {
               return (
                 <GlassCard key={benefit.title} delay={index * 0.1}>
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center border border-cyan-500/30 flex-shrink-0">
-                      <Icon className="w-6 h-6 text-cyan-400" />
+                    <div className="w-12 h-12 rounded-xl bg-[#FA93FA]/10 flex items-center justify-center border border-[#FA93FA]/30 flex-shrink-0">
+                      <Icon className="w-6 h-6 text-[#FA93FA]" />
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-white mb-2">
@@ -197,8 +197,8 @@ export default function HowItWorksPage() {
             </h2>
             <div className="space-y-8">
               <div className="flex items-start gap-4">
-                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 flex items-center justify-center border border-cyan-500/30 flex-shrink-0">
-                  <span className="text-2xl font-bold text-cyan-400">3</span>
+                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-500/20 to-blue-500/20 flex items-center justify-center border border-[#FA93FA]/30 flex-shrink-0">
+                  <span className="text-2xl font-bold text-[#FA93FA]">3</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">Days 1-3: Getting Started</h3>
@@ -209,8 +209,8 @@ export default function HowItWorksPage() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-500/20 to-purple-500/20 flex items-center justify-center border border-cyan-500/30 flex-shrink-0">
-                  <span className="text-2xl font-bold text-cyan-400">7</span>
+                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-500/20 to-purple-500/20 flex items-center justify-center border border-[#FA93FA]/30 flex-shrink-0">
+                  <span className="text-2xl font-bold text-[#FA93FA]">7</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">Days 4-7: Breaking Through</h3>
@@ -221,8 +221,8 @@ export default function HowItWorksPage() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-500/20 to-pink-500/20 flex items-center justify-center border border-cyan-500/30 flex-shrink-0">
-                  <span className="text-2xl font-bold text-cyan-400">30</span>
+                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-cyan-500/20 to-pink-500/20 flex items-center justify-center border border-[#FA93FA]/30 flex-shrink-0">
+                  <span className="text-2xl font-bold text-[#FA93FA]">30</span>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">Days 8-30: Transformation</h3>
@@ -254,7 +254,7 @@ export default function HowItWorksPage() {
       </div>
 
       {/* Background Effects */}
-      <div className="absolute top-1/4 left-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/4 left-0 w-96 h-96 bg-[#FA93FA]/10 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-1/4 right-0 w-96 h-96 bg-purple-500/10 rounded-full blur-[120px] pointer-events-none" />
     </div>
   );

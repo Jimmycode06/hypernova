@@ -99,7 +99,7 @@ export default function ContactPage() {
                 <motion.div
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mb-6 p-4 bg-cyan-500/20 border border-cyan-500/30 rounded-xl text-cyan-400"
+                  className="mb-6 p-4 bg-[#FA93FA]/20 border border-[#FA93FA]/30 rounded-xl text-[#FA93FA]"
                 >
                   Thank you! Your message has been sent successfully.
                 </motion.div>
@@ -117,7 +117,7 @@ export default function ContactPage() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-cyan-500/50 focus:ring-2 focus:ring-cyan-500/20 transition-all"
+                    className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-[#FA93FA]/50 focus:ring-2 focus:ring-cyan-500/20 transition-all"
                     placeholder="Your name"
                   />
                 </div>
@@ -133,7 +133,7 @@ export default function ContactPage() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-cyan-500/50 focus:ring-2 focus:ring-cyan-500/20 transition-all"
+                    className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-[#FA93FA]/50 focus:ring-2 focus:ring-cyan-500/20 transition-all"
                     placeholder="your@email.com"
                   />
                 </div>
@@ -149,7 +149,7 @@ export default function ContactPage() {
                     onChange={handleChange}
                     required
                     rows={6}
-                    className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-cyan-500/50 focus:ring-2 focus:ring-cyan-500/20 transition-all resize-none"
+                    className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:border-[#FA93FA]/50 focus:ring-2 focus:ring-cyan-500/20 transition-all resize-none"
                     placeholder="Tell me about your project..."
                   />
                 </div>
@@ -185,8 +185,8 @@ export default function ContactPage() {
             {/* Location */}
             <GlassCard hover={false}>
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center border border-cyan-500/30 flex-shrink-0">
-                  <MapPin className="w-6 h-6 text-cyan-400" />
+                <div className="w-12 h-12 rounded-xl bg-[#FA93FA]/10 flex items-center justify-center border border-[#FA93FA]/30 flex-shrink-0">
+                  <MapPin className="w-6 h-6 text-[#FA93FA]" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">Location</h3>
@@ -211,11 +211,11 @@ export default function ContactPage() {
                       rel="noopener noreferrer"
                       className="flex items-center gap-4 p-4 glass rounded-xl glass-hover group"
                     >
-                      <div className="w-10 h-10 rounded-lg bg-cyan-500/10 flex items-center justify-center border border-cyan-500/30 group-hover:border-cyan-500/60 transition-all">
-                        <Icon className="w-5 h-5 text-cyan-400" />
+                      <div className="w-10 h-10 rounded-lg bg-[#FA93FA]/10 flex items-center justify-center border border-[#FA93FA]/30 group-hover:border-[#FA93FA]/60 transition-all">
+                        <Icon className="w-5 h-5 text-[#FA93FA]" />
                       </div>
                       <div>
-                        <div className="text-white font-medium group-hover:text-cyan-400 transition-colors">
+                        <div className="text-white font-medium group-hover:text-[#FA93FA] transition-colors">
                           {social.name}
                         </div>
                         <div className="text-gray-400 text-sm">
@@ -244,8 +244,8 @@ export default function ContactPage() {
       </div>
 
       {/* Background Effects */}
-      <div className="absolute top-1/3 left-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-1/3 right-0 w-96 h-96 bg-purple-500/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/3 left-0 w-96 h-96 bg-[#FA93FA]/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute bottom-1/3 right-0 w-96 h-96 bg-[#983AD6]/10 rounded-full blur-[120px] pointer-events-none" />
     </div>
   );
 }

@@ -121,8 +121,8 @@ export default function ProjectsPage() {
                 onClick={() => setSelectedCategory(category)}
                 className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${
                   selectedCategory === category
-                    ? "bg-cyan-500 text-gray-900 shadow-[0_0_30px_rgba(34,211,238,0.5)]"
-                    : "glass text-gray-300 hover:bg-white/10 hover:border-cyan-500/50"
+                    ? "gradient-primary text-white shadow-[0_0_30px_rgba(250,147,250,0.5)]"
+                    : "glass text-gray-300 hover:bg-white/10 hover:border-[#FA93FA]/50"
                 }`}
               >
                 {category}
@@ -171,8 +171,8 @@ export default function ProjectsPage() {
       </div>
 
       {/* Background Effects */}
-      <div className="absolute top-1/4 left-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-1/4 right-0 w-96 h-96 bg-purple-500/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/4 left-0 w-96 h-96 bg-[#FA93FA]/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute bottom-1/4 right-0 w-96 h-96 bg-[#983AD6]/10 rounded-full blur-[120px] pointer-events-none" />
     </div>
   );
 }

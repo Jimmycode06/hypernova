@@ -47,7 +47,7 @@ export default function TestimonialsSection() {
           {testimonials.map((testimonial, index) => (
             <GlassCard key={index} delay={index * 0.1} hover={false}>
               <div className="relative">
-                <Quote className="w-10 h-10 text-cyan-400/30 mb-6" />
+                <Quote className="w-10 h-10 text-[#FA93FA]/30 mb-6" />
                 <p className="text-gray-300 text-lg leading-relaxed mb-6">
                   &quot;{testimonial.quote}&quot;
                 </p>
@@ -66,7 +66,7 @@ export default function TestimonialsSection() {
       </div>
 
       {/* Background Glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-500/10 rounded-full blur-[150px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#FA93FA]/10 rounded-full blur-[150px] pointer-events-none" />
     </section>
   );
 }
