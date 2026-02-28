@@ -33,6 +33,9 @@ export default function Navbar() {
             <span className="text-xl font-bold text-gradient">
               Hypernovation
             </span>
+            <span className="text-xs font-semibold text-[#FA93FA] tracking-widest uppercase ml-1">
+              AI
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
