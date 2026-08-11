@@ -8,6 +8,13 @@ import { Search } from "lucide-react";
 
 const allProjects = [
   {
+    title: "Nova",
+    category: "iOS App • AI",
+    description: "AI-powered hairstyle analysis and virtual try-ons to explore cuts, colors, and styles before your next appointment.",
+    tags: ["Apps", "AI"],
+    href: "/projects/nova",
+  },
+  {
     title: "SugarOff",
     category: "iOS App",
     description: "Wellness app helping users track and reduce sugar intake with AI-powered insights and beautiful analytics.",
