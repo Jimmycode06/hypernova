@@ -2,6 +2,7 @@ import Link from "next/link";
 
 const links = [
   { label: "Privacy", href: "/projects/nova/privacy-policy" },
+  { label: "Terms of Use", href: "/projects/nova/terms" },
   { label: "Support", href: "/projects/nova/support" },
   { label: "Manage my data", href: "/projects/nova/data-request" },
 ];
