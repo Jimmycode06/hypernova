@@ -82,3 +82,23 @@ body {
 .nova-light .text-gray-400 { color: #6f6174; }
 .nova-light .text-gray-500 { color: #887b8d; }
 .nova-light .nova-dots > div { background-image: radial-gradient(circle at 1px 1px, rgba(88,48,99,.10) 1px, transparent 0); }
+
+body:has(.fluent-site) > nav,
+body:has(.fluent-site) > footer { display: none; }
+body:has(.fluent-site) > main { min-height: 0; }
+
+.fluent-site { font-feature-settings: "ss01" 1, "cv02" 1; }
+.fluent-logo { display: inline-flex; width: 2.4rem; height: 2.4rem; align-items: center; justify-content: center; border-radius: .85rem; background: linear-gradient(145deg,#6e91ff,#6855dc); color: white; font-size: 1.35rem; font-weight: 800; letter-spacing: -.08em; box-shadow: inset 0 1px 0 rgba(255,255,255,.28), 0 10px 28px rgba(76,104,238,.25); }
+.fluent-button { display: inline-flex; align-items: center; justify-content: center; gap: .55rem; border-radius: 999px; background: linear-gradient(135deg,#668bff,#7057df); color: white; font-weight: 600; box-shadow: 0 12px 32px rgba(80,102,229,.25); transition: transform .2s ease, box-shadow .2s ease; }
+.fluent-button:hover { transform: translateY(-2px); box-shadow: 0 16px 40px rgba(80,102,229,.36); }
+.fluent-button:focus-visible { outline: 3px solid rgba(126,160,255,.7); outline-offset: 3px; }
+.fluent-gradient-text { background: linear-gradient(110deg,#8ca8ff 5%,#70e6d2 90%); background-clip: text; color: transparent; }
+.fluent-eyebrow { color: #85a2ff; font-size: .76rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
+.fluent-panel { position: relative; overflow: hidden; border: 1px solid rgba(255,255,255,.09); border-radius: 1.6rem; background: linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.025)); box-shadow: inset 0 1px 0 rgba(255,255,255,.035); }
+.fluent-panel::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(135deg,rgba(111,143,255,.04),transparent 45%); }
+.fluent-orb { position: absolute; border-radius: 999px; filter: blur(110px); pointer-events: none; }
+.fluent-orb-one { width: 30rem; height: 30rem; top: 2rem; right: -10rem; background: rgba(73,103,242,.18); }
+.fluent-orb-two { width: 24rem; height: 24rem; bottom: -10rem; left: -8rem; background: rgba(63,211,187,.10); }
+.fluent-prose a { color: #8ca8ff; text-decoration: underline; text-underline-offset: 3px; }
+.fluent-prose ul { list-style: disc; padding-left: 1.25rem; }
+.fluent-prose li + li { margin-top: .45rem; }
