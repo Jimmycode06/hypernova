@@ -7,6 +7,12 @@ import { ArrowRight } from "lucide-react";
 
 const projects = [
   {
+    title: "Fluent AI",
+    category: "iOS App • AI",
+    description: "Build speaking confidence through realistic AI conversations, personalized feedback, and practice adapted to your level.",
+    href: "/fluent-ai",
+  },
+  {
     title: "SugarOff",
     category: "iOS App",
     description: "Wellness app helping users track and reduce sugar intake with AI-powered insights and beautiful analytics.",

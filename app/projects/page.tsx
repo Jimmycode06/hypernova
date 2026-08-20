@@ -8,6 +8,13 @@ import { Search } from "lucide-react";
 
 const allProjects = [
   {
+    title: "Fluent AI",
+    category: "iOS App • AI",
+    description: "AI-powered language practice with realistic conversations, personalized corrections, and speaking progress adapted to every level.",
+    tags: ["Apps", "AI"],
+    href: "/fluent-ai",
+  },
+  {
     title: "Nova",
     category: "iOS App • AI",
     description: "AI-powered hairstyle analysis and virtual try-ons to explore cuts, colors, and styles before your next appointment.",
